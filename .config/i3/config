@@ -372,7 +372,7 @@ exec --no-startup-id feh --bg-scale ~/Pictures/mac.jpg
 ###############
 # if you do not use dex: exec --no-startup-id dex --autostart --environment i3
 # you need to have tray apps started manually one by one:
-exec_always --no-startup-id ~/.config/polybar/launch.sh --shades
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 # start blueberry app for managing bluetooth devices from tray:
 #exec --no-startup-id blueberry-tray
 
@@ -445,7 +445,7 @@ client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 ## rofi bindings fancy application menu ($mod+d /F9 optional disabled)
 
 bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun \
-		-config ~/.config/rofi/rofidmenu.rasi
+		-config ~/.config/rofi/config.rasi
 
 #bindsym F9 exec --no-startup-id rofi -modi drun -show drun \
 #		-config ~/.config/rofi/rofidmenu.rasi
